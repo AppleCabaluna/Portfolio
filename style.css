@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#033747,#012733);
+}
+nav .logo{
+   font-size: 30px;
+   font-weight: bold;
+   float: left;
+   color: white;
+   text-transform: uppercase;
+   letter-spacing: 1.5px;
+   cursor: pointer;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+    
+}
+nav li a:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+} 
+.content-item img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-caption h1{
+    color: #ff8c69;
+}
+.carousel-caption p{
+    color: #ff8c69;
+}
+.about h1{
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.caption p{
+    color: white;
+}
+.caption1{
+    color: white;
+}
+.caption2{
+    color: white;
+}
+.activities h1{
+    color: white;
+}
+.apol{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0, .1);
+}
+.apol img{
+    display: block;
+    border-radius: 5px;
+}
+
+.apol:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.bon{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0, .1);
+}
+.bon img{
+    display: block;
+    border-radius: 5px;
+}
+.bon:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.janpol{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0, .1);
+}
+.janpol img{
+    display: block;
+    border-radius: 5px;
+}
+.janpol:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
